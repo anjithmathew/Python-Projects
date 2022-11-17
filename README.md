@@ -1,3 +1,6 @@
-# Python_Projects
-## Contents
-1.Finance
+# Projects
+
+* __Finance__
+    * __Income Statement Analysis__
+* __Oop__
+    * __Rectangle__
