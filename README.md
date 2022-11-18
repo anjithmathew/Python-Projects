@@ -1,6 +1,6 @@
-# Projects
+# **Projects**
 
-* __Finance__
-    * __Income Statement Analysis__
-* __Oop__
-    * __Rectangle__
+### * **_Finance_**
+* __Income Statement Analysis__
+#### * __Oop__
+* __Rectangle__
