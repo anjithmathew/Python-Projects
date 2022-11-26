@@ -1,6 +1,4 @@
-# **Projects**
-
-### * **_Finance_**
-* __Income Statement Analysis__
-#### * __Oop__
-* __Rectangle__
+<h1> My Personal Python Projects </h1>
+<hr>
+<img src= "images/download.webp">
+<hr>
