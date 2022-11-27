@@ -1,6 +1,7 @@
 
 import requests
 data = requests.get("https://madlibz.herokuapp.com/api/random").json()
+    
 
 input_user = data['value'][:-1]
 
@@ -19,15 +20,18 @@ def user_input(data):
 
 
 def string_formating(input_user, list_input):
-    for i in range(len(list_input)):
-        for i in range(1,len(input_user),3):
-            pos = 1
-            input_user.insert(i+pos,list_input[i])
-            pos += i
-    print(input_user)
+    ans = zip(input_user,list_input)
+    str_ans = []
+    for i in ans:
+        str_ans.append(i)
+    y = [list(x) for x in str_ans]
+    z = []
+    for x in y:
+        z.append(" ".join(x))
+    
+    xxx ="  ".join(z)
 
-
-
+    print(xxx)
 
 x = user_input(data)
 
